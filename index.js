@@ -18,7 +18,7 @@ const getRedAirlineFares = () => {
         const departSelector = 'input[aria-controls="home-origin-autocomplete-heatmapstation-combobox"]';
 
         try {
-            console.log('go to page');
+            console.log('go to page'); 
             await page.goto(mainUri);
             console.log('waiting for input field');
             await page.waitForSelector(departSelector);
